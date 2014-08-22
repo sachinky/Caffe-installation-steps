@@ -18,3 +18,7 @@ If you get the following error -
 
 then run the following command:
 g++ -shared -fPIC matcaffe.cpp -o matcaffe.o
+
+
+removed cuda 6.0 and cuda 
+make all not working in /caffe
