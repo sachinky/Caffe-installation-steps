@@ -20,7 +20,8 @@ If you get the following error -
 /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crt1.o: In function `_start': (.text+0x20): undefined reference to `main'
 
 then run the following command:<b>This solution leads to error in caffe make all step </b>
-g++ -shared -fPIC matcaffe.cpp -o matcaffe.o
+export LD_PRELOAD=$PWD/matcaffe
+g++ -shared -fPIC matcaffe.cpp -o matcaffe
 
 
 removed cuda 6.0 and cuda 
