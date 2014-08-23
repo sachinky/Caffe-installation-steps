@@ -34,4 +34,6 @@ Now go to caffe folder and then
 <br>
 CPLUS_INCLUDE_PATH=
 
-
+but while running 
+<br>
+make runtest -j16
