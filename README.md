@@ -24,6 +24,3 @@ g++ -shared -fPIC matcaffe.cpp -o matcaffe.o
 
 
 removed cuda 6.0 and cuda 
-make all not working in /caffe
-
-not working on root but on sachin
