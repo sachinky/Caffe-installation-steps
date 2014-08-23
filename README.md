@@ -2,13 +2,13 @@ Caffe-installation-
 ===================
 Write the following in <b> /etc/environment </b> to set necesarry paths and library paths.
 
-LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda-5.5/lib64:/opt/OpenBLAS/lib:/opt/OpenBLAS/lib:/usr/lib64/atlas:/usr/local/lib:/root/protobuf-2.5.0/src/google/protobuf
-C_INCLUDE_PATH=$C_INCLUDE_PATH:/opt/OpenBLAS/include:/usr/local/MATLAB/MATLAB_Production_Server/R2013a/extern/include:/caffe/include:/usr/local/cuda-5.5/targets/x86_64_linux/include
-CPLUS_INCLUDE_PATH=$CPLUS_INCLUDE_PATH:/opt/OpenBLAS/include:/usr/local/MATLAB/MATLAB_Production_Server/R2013a/extern/include:/caffe/include:/usr/local/cuda-5.5/targets/x86_64_linux/include
+LD_LIBRARY_PATH=:/usr/local/cuda-5.5/lib64:/opt/OpenBLAS/lib:/opt/OpenBLAS/lib:/usr/lib64/atlas:/usr/local/lib:/root/protobuf-2.5.0/src/google/protobuf
+C_INCLUDE_PATH=:/opt/OpenBLAS/include:/usr/local/MATLAB/MATLAB_Production_Server/R2013a/extern/include:/caffe/include:/usr/local/cuda-5.5/targets/x86_64-linux/include
+CPLUS_INCLUDE_PATH=:/opt/OpenBLAS/include:/usr/local/MATLAB/MATLAB_Production_Server/R2013a/extern/include:/caffe/include:/usr/local/cuda-5.5/targets/x86_64-linux/include
 LD_INCLUDE_PATH=:/opt/OpenBLAS/include
 PATH=$PATH:/usr/local/cuda-5.5/bin:/usr/lib64/qt-3.3/bin:/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin:/usr/local/MATLAB/MATLAB_Production_Server/R2013a/bin
 
-The warning related to conflict between cuda 6.0 and cuda 5.0 was removed
+The warning related to conflict between cuda 6.0 and cuda 5.5 was removed
 
 
 Matlab Wrapper compilation:
