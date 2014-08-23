@@ -22,7 +22,7 @@ If you get the following error -
 /usr/lib/gcc/x86_64-redhat-linux/4.4.7/../../../../lib64/crt1.o: In function `_start': (.text+0x20): undefined reference to `main'
 
 then run the following command:<b>This solution leads to error in caffe make all step </b><br>
-export LD_PRELOAD=$PWD/matcaffe
+ 
 <br>
 g++ -shared -fPIC matcaffe.cpp -o matcaffe
 
