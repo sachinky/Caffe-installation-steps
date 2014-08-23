@@ -46,3 +46,10 @@ http://tecadmin.net/install-python-2-7-on-centos-rhel/
 
 Help seeked <br>
 https://github.com/BVLC/caffe/issues/972
+
+Devtools 2 installed 
+gcc 4.7 installed 
+http://linux.web.cern.ch/linux/devtoolset/#install
+
+/opt/rh/devtoolset-2/root/usr/bin/gcc --version
+
