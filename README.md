@@ -38,3 +38,7 @@ CPLUS_INCLUDE_PATH=
 but while running 
 <br>
 make runtest -j16
+
+
+installed python 2.7  at /usr/src/Python-2.7.5
+http://tecadmin.net/install-python-2-7-on-centos-rhel/
