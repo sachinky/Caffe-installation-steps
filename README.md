@@ -52,4 +52,6 @@ gcc 4.8.1 installed
 http://linux.web.cern.ch/linux/devtoolset/#install
 
 /opt/rh/devtoolset-2/root/usr/bin/gcc --version
+run following command to use gcc4.8  <br>
+<b>scl enable devtoolset-2 bash</b>
 
