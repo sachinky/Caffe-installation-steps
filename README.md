@@ -1,5 +1,8 @@
 Caffe-installation-
 ===================
+
+removed cuda 6.0 and cuda 
+
 Write the following in <b> /etc/environment </b> to set necesarry paths and library paths.
 
 LD_LIBRARY_PATH=:/usr/local/cuda-5.5/lib64:/opt/OpenBLAS/lib:/opt/OpenBLAS/lib:/usr/lib64/atlas:/usr/local/lib:/root/protobuf-2.5.0/src/google/protobuf
@@ -26,5 +29,9 @@ then run the following command:<b>This solution leads to error in caffe make all
 <br>
 g++ -shared -fPIC matcaffe.cpp -o matcaffe
 
+<br>
+Now go to caffe folder and then
+<br>
+CPLUS_INCLUDE_PATH=
 
-removed cuda 6.0 and cuda 
+
