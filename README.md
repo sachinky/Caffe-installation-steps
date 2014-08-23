@@ -27,7 +27,8 @@ If you get the following error -
 then run the following command:<b>This solution leads to error in caffe make all step </b><br>
  
 <br>
-g++ -shared -fPIC matcaffe.cpp -o matcaffe
+g++ -shared -fPIC matcaffe.cpp -o matcaffe 
+This gives segmentation fault
 
 <br>
 Now go to caffe folder and then
