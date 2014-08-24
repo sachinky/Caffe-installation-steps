@@ -3,6 +3,10 @@ Caffe-installation-
 
 removed cuda 6.0 and cuda 
 
+
+How to use cuda ?
+http://courses.cs.tau.ac.il/Caffe_workshop/Bootcamp/
+
 Write the following in <b> /etc/environment </b> to set necesarry paths and library paths.
 
 LD_LIBRARY_PATH=:/usr/local/cuda-5.5/lib64:/opt/OpenBLAS/lib:/opt/OpenBLAS/lib:/usr/lib64/atlas:/usr/local/lib:/root/protobuf-2.5.0/src/google/protobuf
