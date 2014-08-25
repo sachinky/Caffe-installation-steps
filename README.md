@@ -11,7 +11,7 @@ Write the following in <b> /etc/environment </b> to set necesarry paths and libr
 
 LD_LIBRARY_PATH=:/usr/local/cuda-5.5/lib64:/opt/OpenBLAS/lib:/opt/OpenBLAS/lib:/usr/lib64/atlas:/usr/local/lib:/root/protobuf-2.5.0/src/google/protobuf:/root/boost_1_55_0/stage/lib:/opt/rh/python27/root/usr/lib64/:/opt/rh/python27/root/usr/lib64/python2.7/config/:/usr/local/cuda-5.5/targets/x86_64-linux/lib/:/usr/local/lib
 
-C_INCLUDE_PATH=:/opt/OpenBLAS/include:/usr/local/MATLAB/MATLAB_Production_Server/R2013a/extern/include:/caffe/include:/usr/local/cuda-5.5/targets/x86_64-linux/include:/root/boost_1_55_0:/opt/rh/python27/root/usr/include:/opt/rh/python27/root/usr/local/include/:/opt/rh/python27/root/usr/include/python2.7/:/root/boost_1_55_0:/opt/rh/python27/root/usr/include:/opt/rh/python27/root/usr/local/include/:/opt/rh/python27/root/usr/include/python2.7/
+C_INCLUDE_PATH=:/opt/OpenBLAS/include:/usr/local/MATLAB/MATLAB_Production_Server/R2013a/extern/include:/caffe/include:/usr/local/cuda-5.5/targets/x86_64-linux/include:/root/boost_1_55_0:/opt/rh/python27/root/usr/include:/opt/rh/python27/root/usr/local/include/:/opt/rh/python27/root/usr/include/python2.7/
 
 
 CPLUS_INCLUDE_PATH=:/opt/OpenBLAS/include:/usr/local/MATLAB/MATLAB_Production_Server/R2013a/extern/include:/caffe/include:/usr/local/cuda-5.5/targets/x86_64-linux/include:/root/boost_1_55_0:/opt/rh/python27/root/usr/include:/opt/rh/python27/root/usr/local/include/:/opt/rh/python27/root/usr/include/python2.7/
