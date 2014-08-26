@@ -28,7 +28,7 @@ The warning related to conflict between cuda 6.0 and cuda 5.5 was removed
 
 
 Matlab Wrapper compilation:
-
+The follow problem was because I was compiling inside matlab folder where matcaffe.cpp was present. You have to compile in Caffe folder.
 Warning!! Warning!! Warning!!
 
 If you get the following error -
@@ -50,6 +50,10 @@ but while running
 <br>
 make runtest -j16
 
+To compile python wrapper, run the following command in caffe folder<br> 
+LDFLAGS="-L/opt/rh/python27/root/usr/lib64" make pycaffe
+
+<br>
 
 installed python 2.7  at /usr/src/Python-2.7.5
 http://tecadmin.net/install-python-2-7-on-centos-rhel/
