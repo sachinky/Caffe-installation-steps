@@ -75,7 +75,7 @@ run following command to use gcc4.8  <br>
 
 https://github.com/BVLC/caffe/issues/700  <br>
 https://github.com/BVLC/caffe/issues/20  <br>
-https://github.com/BVLC/caffe/issues/20 <br>
+https://github.com/BVLC/caffe/issues/11 <br>
 
 
 https://translate.google.com/translate?sl=zh-CN&tl=en&js=y&prev=_t&hl=en&ie=UTF-8&u=bean.logdown.com%2Fposts%2F211192-caffe-use-caffe-to-extract-features-of-each-layer&edit-text=   <br>
