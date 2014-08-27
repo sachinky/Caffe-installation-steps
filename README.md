@@ -73,9 +73,9 @@ run following command to use gcc4.8  <br>
 
 <b>Feature Extraction:</b><br>
 
-https://github.com/BVLC/caffe/issues/700
-https://github.com/BVLC/caffe/issues/20
-https://github.com/BVLC/caffe/issues/20
+https://github.com/BVLC/caffe/issues/700  <br>
+https://github.com/BVLC/caffe/issues/20  <br>
+https://github.com/BVLC/caffe/issues/20 <br>
 
 
 
