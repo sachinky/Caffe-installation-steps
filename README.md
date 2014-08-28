@@ -80,5 +80,6 @@ https://github.com/BVLC/caffe/issues/11 <br>
 
 https://translate.google.com/translate?sl=zh-CN&tl=en&js=y&prev=_t&hl=en&ie=UTF-8&u=bean.logdown.com%2Fposts%2F211192-caffe-use-caffe-to-extract-features-of-each-layer&edit-text=   <br>
 
+" Unable to import argparse "  is shown in python 2.6, use python 2.7 to get rid of this. <br> 
 
 
