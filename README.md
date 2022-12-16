@@ -1,4 +1,4 @@
-Caffe-installation-
+Caffe-installation-steps
 ===================
 
 removed cuda 6.0 and cuda 
